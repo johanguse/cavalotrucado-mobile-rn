@@ -1,10 +1,11 @@
-import React, { forwardRef, ReactNode } from 'react';
+import React, { ReactNode, forwardRef } from 'react';
 import {
   Text,
   TouchableOpacity,
   TouchableOpacityProps,
   View,
 } from 'react-native';
+
 import { classNames } from 'src/utils';
 
 // See: https://github.com/react-native-elements/react-native-elements/blob/next/packages/base/src/Button/Button.tsx

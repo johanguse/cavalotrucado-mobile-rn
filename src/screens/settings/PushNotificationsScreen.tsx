@@ -1,6 +1,8 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useState } from 'react';
 import { Alert, TouchableOpacity } from 'react-native';
+
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+
 import { ChevronLeftIcon } from 'src/assets/icons';
 import { CustomButton, Header, ScreenContainer } from 'src/components';
 import { SettingsStackParamList } from 'src/navigation/types';

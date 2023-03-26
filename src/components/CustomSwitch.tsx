@@ -1,6 +1,7 @@
-import { MotiView } from 'moti';
 import React, { Dispatch, SetStateAction } from 'react';
 import { Pressable } from 'react-native';
+
+import { MotiView } from 'moti';
 import { theme } from 'src/theme';
 
 type CustomSwitchProps = {

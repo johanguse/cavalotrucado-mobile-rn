@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
+
 import { ChevronLeftIcon } from 'src/assets/icons';
 import { theme } from 'src/theme';
 

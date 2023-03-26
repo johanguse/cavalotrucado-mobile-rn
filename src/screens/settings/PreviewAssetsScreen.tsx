@@ -1,7 +1,9 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { MotiView } from 'moti';
 import React from 'react';
 import { ScrollView, Text, TouchableOpacity, View } from 'react-native';
+
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+
+import { MotiView } from 'moti';
 import FastImage from 'react-native-fast-image';
 import {
   AddToPlaylistIcon,
