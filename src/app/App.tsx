@@ -3,7 +3,6 @@ import { AppNavigator } from 'src/navigation';
 import { AppProvider } from 'src/providers/AppProvider';
 
 function App() {
-
   return (
     <AppProvider>
       <SafeAreaView className="flex-1 bg-black">
