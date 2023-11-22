@@ -1,0 +1,40 @@
+export const soldTruckDetails = {
+    data: [
+        {
+            id: 197,
+            title: 'Volvo FH 400 6x2 2008 teto baixo',
+            slug: 'volvo-fh-400-6x2-2008-teto-baixo-2',
+            brand: 'Volvo',
+            vehicle_model_name: 'FH 400',
+            vehicle_year: '2008',
+            vehicle_year_model: null,
+            vehicle_show_price: null,
+            vehicle_price: '150.000',
+            vehicle_km: '363',
+            vehicle_state: { value: 'AC', label: 'Acre' },
+            vehicle_main_photo:
+                'https://media.publit.io/file/q_70/stgcavalotrucado/265092944_4474686505962300_6874410919769806687_n.jpg',
+            vehicle_short_text_1: 'Motor feito a 1 ano',
+            vehicle_short_text_2: 'teto baixo',
+            vehicle_short_text_3: 'C\u00e2mbio manual',
+        },
+        {
+            id: 160,
+            title: 'FH 400 6x2 2011',
+            slug: 'fh-400-6x2-2011',
+            brand: 'Volvo',
+            vehicle_model_name: 'FH 400',
+            vehicle_year: '2011',
+            vehicle_year_model: null,
+            vehicle_show_price: null,
+            vehicle_price: '220.000',
+            vehicle_km: '1.100000',
+            vehicle_state: { value: 'RR', label: 'Roraima' },
+            vehicle_main_photo:
+                'https://media.publit.io/file/q_70/stgcavalotrucado/269829097_4536005389830411_2610320661051166836_n.jpg',
+            vehicle_short_text_1: 'Ar condicionado',
+            vehicle_short_text_2: 'Cama ga\u00facha',
+            vehicle_short_text_3: 'Bom de pneus',
+        },
+    ],
+};

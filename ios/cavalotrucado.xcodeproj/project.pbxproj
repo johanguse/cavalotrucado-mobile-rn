@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,9 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		275A1C2DEB9BD9DEF48B1776 /* libPods-cavalotrucado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ED3C537A423A6B125924A7 /* libPods-cavalotrucado.a */; };
+		372730EFC024A7F1B007DF7D /* libPods-cavalotrucado-cavalotrucadoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6570230594BB95C4880B581 /* libPods-cavalotrucado-cavalotrucadoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AC6A772BE7E9138B46D6611F /* libPods-cavalotrucado-cavalotrucadoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEC26B7FA6F0BE66DB0DCC4 /* libPods-cavalotrucado-cavalotrucadoTests.a */; };
-		B6F7CF4863C6D729ED5AC36B /* libPods-cavalotrucado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F196857394F0B8CC9D06FA2 /* libPods-cavalotrucado.a */; };
+		99824BD12ADC8737006DB8E3 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 99824BD02ADC8737006DB8E3 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +31,21 @@
 		00E356EE1AD99517003FC87E /* cavalotrucadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cavalotrucadoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* cavalotrucadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cavalotrucadoTests.m; sourceTree = "<group>"; };
+		12271065074A9D7DB844E028 /* Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig"; path = "Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* cavalotrucado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cavalotrucado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cavalotrucado/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = cavalotrucado/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cavalotrucado/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cavalotrucado/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cavalotrucado/main.m; sourceTree = "<group>"; };
-		25E0692CFC26FE2AD5ABD833 /* Pods-cavalotrucado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado.debug.xcconfig"; path = "Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado.debug.xcconfig"; sourceTree = "<group>"; };
-		46B1B0433F7888FC53CBB978 /* Pods-cavalotrucado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado.release.xcconfig"; path = "Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado.release.xcconfig"; sourceTree = "<group>"; };
+		13ED3C537A423A6B125924A7 /* libPods-cavalotrucado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cavalotrucado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cavalotrucado/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F196857394F0B8CC9D06FA2 /* libPods-cavalotrucado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cavalotrucado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEEC26B7FA6F0BE66DB0DCC4 /* libPods-cavalotrucado-cavalotrucadoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cavalotrucado-cavalotrucadoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99824BD02ADC8737006DB8E3 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		D67D8C451227B535736C303B /* Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig"; path = "Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E06AA4134BDA77D14F374B7E /* Pods-cavalotrucado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado.release.xcconfig"; path = "Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado.release.xcconfig"; sourceTree = "<group>"; };
+		E0915C5F846B129625B3E2E2 /* Pods-cavalotrucado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado.debug.xcconfig"; path = "Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F08F04BDA3DB719658F64990 /* Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig"; path = "Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig"; sourceTree = "<group>"; };
-		FEC53A0E4E266CAEFE12BDF6 /* Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig"; path = "Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6570230594BB95C4880B581 /* libPods-cavalotrucado-cavalotrucadoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cavalotrucado-cavalotrucadoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6A772BE7E9138B46D6611F /* libPods-cavalotrucado-cavalotrucadoTests.a in Frameworks */,
+				372730EFC024A7F1B007DF7D /* libPods-cavalotrucado-cavalotrucadoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F7CF4863C6D729ED5AC36B /* libPods-cavalotrucado.a in Frameworks */,
+				275A1C2DEB9BD9DEF48B1776 /* libPods-cavalotrucado.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,7 @@
 		13B07FAE1A68108700A75B9A /* cavalotrucado */ = {
 			isa = PBXGroup;
 			children = (
+				99824BD02ADC8737006DB8E3 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -100,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8F196857394F0B8CC9D06FA2 /* libPods-cavalotrucado.a */,
-				BEEC26B7FA6F0BE66DB0DCC4 /* libPods-cavalotrucado-cavalotrucadoTests.a */,
+				13ED3C537A423A6B125924A7 /* libPods-cavalotrucado.a */,
+				F6570230594BB95C4880B581 /* libPods-cavalotrucado-cavalotrucadoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +143,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				25E0692CFC26FE2AD5ABD833 /* Pods-cavalotrucado.debug.xcconfig */,
-				46B1B0433F7888FC53CBB978 /* Pods-cavalotrucado.release.xcconfig */,
-				FEC53A0E4E266CAEFE12BDF6 /* Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig */,
-				F08F04BDA3DB719658F64990 /* Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig */,
+				E0915C5F846B129625B3E2E2 /* Pods-cavalotrucado.debug.xcconfig */,
+				E06AA4134BDA77D14F374B7E /* Pods-cavalotrucado.release.xcconfig */,
+				D67D8C451227B535736C303B /* Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig */,
+				12271065074A9D7DB844E028 /* Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cavalotrucadoTests" */;
 			buildPhases = (
-				E12B4CDA8374428C74B1109C /* [CP] Check Pods Manifest.lock */,
+				0210A39B96D128FD2E429476 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				9145AFB5FC7D34BEFCF76E61 /* [CP] Embed Pods Frameworks */,
-				5955B6B20DFD11DDD492161A /* [CP] Copy Pods Resources */,
+				11A5FCAEB2DB45C5CB08C194 /* [CP] Embed Pods Frameworks */,
+				53503FDB8FB48A4D103886F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +179,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cavalotrucado" */;
 			buildPhases = (
-				E7A6563F6D3DBB50BCA62BA7 /* [CP] Check Pods Manifest.lock */,
+				CAE5532077092BB747B42332 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				536208A008189780895C7813 /* [CP] Embed Pods Frameworks */,
-				C6DCF1123D8E1B947166358F /* [CP] Copy Pods Resources */,
+				642748FAC445464C663C772B /* [CP] Embed Pods Frameworks */,
+				2F9BCDF544BC5EB2137B50B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +203,8 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -212,7 +216,7 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cavalotrucado" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -242,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99824BD12ADC8737006DB8E3 /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -266,75 +271,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		536208A008189780895C7813 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5955B6B20DFD11DDD492161A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9145AFB5FC7D34BEFCF76E61 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C6DCF1123D8E1B947166358F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E12B4CDA8374428C74B1109C /* [CP] Check Pods Manifest.lock */ = {
+		0210A39B96D128FD2E429476 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +293,75 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7A6563F6D3DBB50BCA62BA7 /* [CP] Check Pods Manifest.lock */ = {
+		11A5FCAEB2DB45C5CB08C194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F9BCDF544BC5EB2137B50B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53503FDB8FB48A4D103886F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado-cavalotrucadoTests/Pods-cavalotrucado-cavalotrucadoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		642748FAC445464C663C772B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cavalotrucado/Pods-cavalotrucado-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE5532077092BB747B42332 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,8 +435,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEC53A0E4E266CAEFE12BDF6 /* Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig */;
+			baseConfigurationReference = D67D8C451227B535736C303B /* Pods-cavalotrucado-cavalotrucadoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -457,8 +463,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F08F04BDA3DB719658F64990 /* Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig */;
+			baseConfigurationReference = 12271065074A9D7DB844E028 /* Pods-cavalotrucado-cavalotrucadoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = cavalotrucadoTests/Info.plist;
@@ -481,13 +488,16 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25E0692CFC26FE2AD5ABD833 /* Pods-cavalotrucado.debug.xcconfig */;
+			baseConfigurationReference = E0915C5F846B129625B3E2E2 /* Pods-cavalotrucado.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U77MALD29H;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = cavalotrucado/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cavalo Trucado";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,12 +518,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46B1B0433F7888FC53CBB978 /* Pods-cavalotrucado.release.xcconfig */;
+			baseConfigurationReference = E06AA4134BDA77D14F374B7E /* Pods-cavalotrucado.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U77MALD29H;
 				INFOPLIST_FILE = cavalotrucado/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cavalo Trucado";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,6 +577,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -572,6 +586,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -580,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -592,16 +607,19 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
-					" ",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+					"-Wl",
+					"-ld_classic",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -641,16 +659,21 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -661,16 +684,19 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
-					" ",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+					"-Wl",
+					"-ld_classic",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
