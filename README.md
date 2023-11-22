@@ -1,4 +1,6 @@
-https://github.com/johanguse/cavalotrucado-mobile-rn/assets/6184866/07e077c5-f42a-4948-bb7a-239c6a0bdf68
+
+
+https://github.com/johanguse/cavalotrucado-mobile-rn/assets/6184866/298de573-4363-471a-83b0-76052514d094
 
 
 
