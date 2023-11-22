@@ -1,4 +1,6 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+https://github.com/johanguse/cavalotrucado-mobile-rn/assets/6184866/07e077c5-f42a-4948-bb7a-239c6a0bdf68
+
+
 
 # Getting Started
 
